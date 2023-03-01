@@ -1,0 +1,357 @@
+/* 全てのページにて適用される設定*/
+body {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+}
+/* 全てのページにて適用 - ヘッダー */
+.p-header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.p-header__logo {
+    margin: 3%;
+
+}
+.p-header__inner {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 15%;
+}
+
+.p-header__nav__list{
+    display: flex;
+    gap: 20px;
+}
+
+.p-header__nav__item{
+    font-size: 14px;
+    color: #666666;
+}
+
+
+
+.p-header__sns {
+    display: flex;
+    gap: 40px;
+    font-weight: 700;
+font-size: 14px;
+line-height: 160%;
+letter-spacing: 0.1em;
+color: #666666;
+
+}
+
+
+.hunburgar{
+    display: none;
+    position: relative;
+    width: 34px;
+    height: 16px;
+    
+}
+
+.hunburger_line_top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #333333;
+}
+.hunburger_line_bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #333333;
+}
+
+/* 全てのページにて適用 - ヒーロー */
+
+.hero {
+    width: 100%;
+    height: 680px;
+    position: relative;
+
+}
+.hero img {
+width: 976px;
+height: 680px;
+object-fit: cover;
+position: absolute;
+top: 0;
+right: 0;
+border-radius: 50px 0px 0px 50px; }
+
+.hero_text {
+width: 500px;
+height: 281px;
+background:  #EFF2F5;
+border-radius:  24px;
+position: absolute;
+top: 198px;
+left: 80px;
+text-align: center;
+}
+
+.section_p_blue {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 180%;
+    color: #0071BC;
+    margin-top: 40px
+}
+.hero_text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+.scroll_down {
+    position: absolute;
+    bottom: 24px;
+    left: 126px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+}
+/* 全てのページにて適用 - メイン*/
+
+.hunburgar_after{
+    display :none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #EEEEEE;
+    z-index: 10;
+}
+
+
+
+.main {
+    width: 68%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+.main_about_inner {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main_about_inner img {
+width: 472px;
+height: 312px;    
+border-radius: 24px;
+}
+.main_about_inner_text {
+font-weight: 400;
+font-size: 14px;
+line-height: 180%;
+text-align: justify;
+color: #333333;
+margin: auto 0;
+}
+
+.main_about_tittle {
+margin-bottom: 43px;
+}
+
+.main_about_tittle h2 {
+    
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+}
+.main_about_tittle_sub {
+    text-align: center;
+    margin-top: 8px;
+}
+
+/*line*/
+
+.main_line {
+    width: 100%;
+    height: 357px;
+    margin-top: 140px;
+
+}
+.main_line_inner {
+    position: relative;
+width: 984px;
+height: 357px;
+background: url(../assets/img/bg-line.jpg);
+background-size: cover;
+border-radius: 48px;
+}
+.main_line_inner::before {
+    position: absolute;
+    display: inline-block;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color: #0071BC;
+    opacity: 0.9;
+    border-radius: 48px;
+
+}
+.main_line_inner_content {
+    position: relative;
+}
+
+.icon_line {
+    background: url(../assets/img/icon/icon-line.svg);
+}
+
+.main_line_icon {
+    height: 40px;
+
+}
+
+.main_line_inner_content h3 {
+
+color: #EEEEEE;
+font-weight: 700;
+font-size: 36px;
+line-height: 180%;
+
+}
+
+.line_icon_frex {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    padding-top: 68px;
+    justify-content: center;
+}
+
+.main_line_text {
+
+    color: #EEEEEE;
+    font-weight: 700;
+font-size: 14px;
+line-height: 160%;
+top: 149px;
+text-align: center;
+}
+
+.main_line_background {
+margin: 0 auto;
+position: relative;
+width: 320px;
+height: 50px;
+background-color: #FFFFFF;
+border-radius: 98px;
+display: flex;
+gap: 89px;
+top: 24px;
+}
+
+.main_line_last {
+    position: absolute;
+    color: #666666;
+    top: 13.9px;
+    left: 121px;
+}
+
+.main_line_gray {
+    position: absolute;
+    top: 17px;
+    right:  26px;
+    width: 12.25px;
+    height: 12.25px;
+}
+
+
+
+
+
+
+
+
+
+/* 全てのページにて適用 - フッター */
+.footer {
+border-top: 1px solid #EEEEEE;
+height: 355px;
+width: 100%;
+text-align: center; 
+
+}
+
+.footer_top_banner {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    background-color: #5fdf5B;
+    width: 288px;
+    height: 80px;
+    border-radius: 16px;
+}
+
+.top_img img {
+    position: absolute;
+    right: 228px;
+    bottom: 20px; 
+    border-radius: 8px;
+    width: 36px;
+    height: 36px;
+    background-color: #EEEEEE;
+
+}
+
+
+.footer_top_text {
+    position: absolute;
+    right: 73px;
+    bottom: 20px;
+    color: #EEEEEE;
+}
+
+.banner_gray_icon img {
+position: absolute;
+bottom: 28px;
+right: 31px;
+}
+
+.footer_sns {
+    display: inline-block;
+}
+.footer_margin {
+    margin-top: 55px;
+}
+
+.footer_last {
+    border-top: 1px solid #EEEEEE;
+
+}
+.footer_last p{
+    margin-top: 20px;
+}
+/* 全てのページにて適用*/
+
+
+
+@media (max-width: 765px)
+{
+    .p-header__inner{
+        display: none;
+    }
+    .hunburgar{
+        display: block;
+    }
+    .hunburgar_after{
+       display: block;
+        
+        }
+}
